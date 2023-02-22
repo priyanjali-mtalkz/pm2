@@ -11,10 +11,12 @@ module.exports = {
     instances: 4,
     max_memory_restart: '1G',
     env: {
-      ENV: 'development'
+      ENV: 'development',
+      PORT : 5555
     },
     env_production : {
-      ENV: 'production'
+      ENV: 'production',
+      PORT : 5001
     }
   }, {
     name: 'echo-python-3',
